@@ -48,16 +48,3 @@ function onError() {
   errorEl.classList.remove('is-hidden');
   breedSelectEl.classList.add('is-hidden');
 }
-// function chooseBreed(data) {
-//   fetchBreeds(data).then(data => {
-//     //   console.log(data);
-
-//     let optionsMarkup = data.map(({ name, id }) => {
-//       return `<option value ='${id}'>${name}</option>`;
-//     });
-
-//     breedSelectEl.insertAdjacentHTML('beforeend', optionsMarkup);
-//     breedSelectEl.classList.remove('is-hidden'); // Show select element after options are added
-//   });
-// }
-// chooseBreed();
